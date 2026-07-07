@@ -71,6 +71,14 @@ export default defineConfig([
   },
 
   {
-    ignores: ['node_modules/**', '.next/**', 'out/**', 'dist/**', 'public/vendor/**', '.vercel/**'],
+    ignores: [
+      'node_modules/**',
+      '.next/**',
+      'out/**',
+      'dist/**',
+      'public/vendor/**',
+      '.vercel/**',
+      'next-env.d.ts',
+    ],
   },
 ])
